@@ -127,4 +127,27 @@ a {
   word-spacing: 9px;
   text-shadow: 2px 0px 0px black;
 }
+
+.rasm3 {
+  border-radius: 15px;
+  left: 250px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  top: 200px;
+}
+
+.number {
+  background-color: white;
+  color: lime;
+  padding: 30px;
+  font-weight: 900;
+  font-size: 27px;
+  left: 300px;
+  top: 250px;
+  position: relative;
+  border-radius: 10px;
+  text-shadow: 2px 0 rgba(4, 253, 99, 0.205);
+}
 /*# sourceMappingURL=style.css.map */

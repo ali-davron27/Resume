@@ -11,7 +11,7 @@ update(){
 setTimeout(()=>{
     this.name = 'ALI'
 },5000)  
-},
+}
 
 
 // changeName(){

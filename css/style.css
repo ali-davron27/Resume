@@ -1,4 +1,8 @@
-* {user-select: none;
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -17,7 +21,8 @@ a {
   text-decoration: none;
 }
 
-.container {margin: auto;
+.container {
+  margin: auto;
   width: 1300px;
   height: 2000px;
 }
@@ -29,7 +34,7 @@ a {
   color: orangered;
 }
 
-.box1 {
+#app {
   position: relative;
   left: 100px;
   width: 1111px;
@@ -136,7 +141,6 @@ a {
       align-self: center;
   position: relative;
   top: 200px;
-  margin: auto;
 }
 
 .number {
